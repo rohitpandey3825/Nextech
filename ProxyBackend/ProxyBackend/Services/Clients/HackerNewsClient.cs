@@ -4,9 +4,17 @@ namespace ProxyBackend.Services.Clients
 {
     public class HackerNewsClient : IHackerNewsClient
     {
-        public HackerNewsClient()
+        private const string BaseUrl = "https://hacker-news.firebaseio.com/v0/";
+
+        private readonly IRedisRepository redisRepository;
+
+        public HackerNewsClient(IRedisRepository redisRepository)
         {
-            
+            this.redisRepository = redisRepository;
+
         }
+
+
+
     }
 }
