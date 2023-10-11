@@ -11,8 +11,8 @@ namespace ProxyBackend.Services.Clients
         public HackerNewsClient(IRedisRepository redisRepository)
         {
             this.redisRepository = redisRepository;
-
         }
+
 
 
 
