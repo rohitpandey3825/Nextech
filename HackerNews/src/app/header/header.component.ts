@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'header_base',
+  templateUrl: './header.component.html'
 })
 
 export class HeaderComponent {
-    title = 'HackerNews';
+    title = 'HackerNewss';
   }
